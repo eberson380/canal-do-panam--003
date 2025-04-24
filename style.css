@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/fundo\ 1.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
+}
+
+#container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto 20px;
+  padding: 0 24px;
+  border: 3px solid rgba(0, 0, 0, 1);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+/*tituto inicial*/
+#container h1 {
+  padding: 20px 0px;
+}
+
+/*titulos secundarios*/
+#container h2 {
+  padding: 20px 0px;
+}
+
+/*textos */
+#container p {
+  font-size: 20px;
+}
+
+/*banner do Magalu*/
+#container3 {
+  border: solid black 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  background-color: gray;
+}
+
+#container3 p {
+  margin: 10px auto 0px;
+  font-size: 30px;
+  color: white;
+  padding: 5px 35px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(45, 95, 233);
+}
+
+#container3 a {
+  margin: 10px auto;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+
+  background-color: white;
+}
+
+/*banner da hotmart*/
+#container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black 3px;
+  padding: auto;
+  background-color: gray;
+}
+
+#container4 p {
+  border: solid rgb(0, 255, 0) 4px;
+  font-size: 30px;
+  margin: 10px auto 0px;
+  font-size: 30px;
+  color: black;
+  padding: 5px 28px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+/*botão da pagina da hotmart*/
+#container4 a {
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.slider {
+  width: 95%;
+  max-width: 600px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  animation: slide 20s infinite ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+/*video final do youtube*/
+#container2 {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#container2 {
+  position: relative;
+  justify-content: center;
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding-bottom: 56.25%; /* Proporção 16:9 para manter o vídeo proporcional */
+  height: 0;
+}
+
+/*contador de acessos*/
+#conatiner2 iframe {
+  position: absolute;
+  padding: 20px 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*logo marca final*/
+#profile {
+  display: flex;
+  justify-content: center;
+}
+
+#profile img {
+  width: 200px;
+  padding: 20px;
+}
+
+@media (max-width: 1260px) {
+  #container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 0px;
+    padding: 0 24px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+  }
+
+  #container2 {
+    position: relative;
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding-bottom: 56.25%; /* Proporção 16:9 para manter o vídeo proporcional */
+    height: 0;
+  }
+
+  #container2 iframe {
+    position: absolute;
+    padding: 20px 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #profile img {
+    width: 70px;
+    padding: 5px;
+  }
+  /*banner do Magalu*/
+  #container3 {
+    border: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    background-color: gray;
+  }
+
+  #container3 p {
+    margin: 10px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(45, 95, 233);
+  }
+
+  #container3 a {
+    margin: 10px auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+    background-color: white;
+  }
+
+  /*banner da hotmart*/
+  #container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 3px;
+    padding: auto;
+    background-color: gray;
+  }
+
+  #container4 p {
+    text-align: center;
+    font-size: 20px;
+    border: solid rgb(0, 255, 0) 4px;
+    margin: 10px auto 0px;
+    color: black;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+  }
+
+  /*botão da pagina da hotmart*/
+  #container4 a {
+    margin: 10px auto;
+    font-size: 20px;
+  }
+
+  .slider {
+    width: 95%;
+    max-width: 700px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .slides {
+    display: flex;
+    width: 100%;
+    animation: slide 20s infinite ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+  }
+}
