@@ -38,6 +38,7 @@ body {
 
 #container p2 {
   color: red;
+  display: block;
 }
 
 /*banner do Magalu*/
