@@ -36,6 +36,10 @@ body {
   font-size: 20px;
 }
 
+#container p2 {
+  color: red;
+}
+
 /*banner do Magalu*/
 #container3 {
   border: solid black 3px;
